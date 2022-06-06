@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 from string import ascii_letters as letters, digits
 
-correct_symbols = letters + digits
+correct_symbols = letters + digits + '_'
 
 
 def exit_the_program():
